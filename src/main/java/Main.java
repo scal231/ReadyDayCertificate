@@ -9,11 +9,14 @@ public class Main {
             String studentLastName = student.getLastName();
             String studentEmail = student.getEmail();
             String certificatePath = "output/"+ studentFirstName+"_"+ studentLastName+"_Certificate.pdf";
+            /*
             CertificateGenerator.generateCertificate(
                 studentFirstName+" "+ studentLastName,
                 certificatePath,
                 "resources/otterbein-logo.png"
         );
+        
+             */
          
 
          OutlookDraftCreator.createDraftEmail(
